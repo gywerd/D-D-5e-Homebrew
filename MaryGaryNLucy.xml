@@ -2,7 +2,7 @@
 <!--Mary, Gary & Lucy - Notes on solving disputes between DM and player-->
 
 <document>
-	<title pagination=none>
+	<title pagination="none">
 		<bastard recto=true>
 			<p />
 			<p />
@@ -11,7 +11,7 @@
 			<p />
 			<h1>Mary, Gary &amp; Lucy</h1>
 		</bastard>
-		<frontispiece>
+		<frontispiece />
 		<titlepage>
 			<p />
 			<p />
@@ -32,61 +32,87 @@
 		</colophone>
 		<dedication />
 		<content footer="Table of Content" >
-		</colophone>
+		</content>
 		<blank />
 	</tittle>
-	<body header="Mary, Gary &amp; Lucy" pagination=num firstpage=1 >
+	<body header="Mary, Gary &amp; Lucy" pagination="num" firstpage=1 >
 		<preface footer="Preface" recto=true>
-			<h2>Preface</h3>
+			<h3>Preface</h3>
 			<p>To some extend any roleplayer, anachronist, reenactor, cosplater, or steam punker is a nerd. They may focus extencively on history, religion, mythology, lore, clothing, crafting, architechture, animals, sourcebooks etc. Often it enriches roleplaying. But any party has a <i>Mary the Contrary</i> or a <i>Gary</i></p>
 			<p>A <b>Lucy</> (reference to Narnia - Lewis 1950) can be annoying, even when she's trying her best not to be. Maybe she doesn't really want to play, but does so to please the party. Or she has trouble comprehending the abstracts of the game.</p>
-			<p><b>Gary</b> (honorary reference to <i>Gary Cygax</i>, the co-inventor of Original D&amp;D) is the player, who has read older sourcebooks extensively or has played D&amp;D for decades. They know a lot about the game - and sometimes more than the DM about particular subjects. But to the DM and other players, this can become an substantial annoyance, when they frequently refer to different campaign settings, possibilities in earlier editions and old school adventures nobody else has ever heard of.</p>
+			<p>A <b>Gary</b> (honorary reference to <i>Gary Cygax</i>, the co-inventor of Original D&amp;D) is the player, who has read older sourcebooks extensively or has played D&amp;D for decades. They know a lot about the game - and sometimes more than the DM about particular subjects. But to the DM and other players, this can become an substantial annoyance, when they frequently refer to different campaign settings, possibilities in earlier editions and old school adventures nobody else has ever heard of.</p>
 			<p><b>Mary the Contrary</b> is a player, who wants to tweak the game - often disagrees with the DM - or does exactly the opposite of, what the DM had expected and planned for the session.</p>
-			<p>Typical challenges include:</p>
+			<p>Sometimes you even encounter the übernerd, <b>Gary the Contrary</b>, that combine the traits of <i>Gary</i> &amp; <i>Mary the Contrary</i>.</p>
+			<p></p>
+			<p>As DM you need to handle these challenges:</p>
 			<ul>
 				<li>beßerwißer</li>
 				<li>flavour</li>
-				<li>sourcebooks from older editions</li>
-				<li>lore from older editions</li>
-				<li>races from older editions</li>
-				<li>classes from older editions</li>
-				<li>alternativee backgrounds</li>
+				<li>sourcebooks, lore, races &amp; classes from older editions</li>
+				<li>alternative backgrounds</li>
+				<li>exagerated creativity</>
+				<li>lack of initiative</li>
+				<li>lack of participation</li>
 			</ul>
-			<p></p>
-			<p></p>
-			<p></p>
+			<p>Adequate solutions ought to be based on</p>
+			<ul>
+				<li>creativity</li>
+				<li>common sense</li>
+				<li>clear distinction between core rulebooks, other official sourcebooks and homebrew</li>
+				<li>interpretation of exisisting 5e rules</li>
+				<li>balancing RAW, RAI &amp; RAF</li>
+				<li>Optional Feat Rule (PHB)</li>
+			</ul>
+			<p>In order to achieve this, we need set some limitations:</p>
+			<ul>
+				<li>New races must be Custom Lineages (TCoE p. 7) or variants of existing races using Custom Origin (TCoE p.8) - optimally as subclasses</li>
+				<li>New classes must be variants of exsisting classes - optimally as subclasses</li>
+				<li>Alternative backgrounds must be outlined in accordance with standard rules (DMG p.)</li>
+				<li>Anything from older editions must be adapted to 5e - and approved by the DM</li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
 			<p></p>
 			<p></p>
 		</preface>
 		<legal footer="Legal Notice" recto=true>
 			<h2>Legal Notice</h2>
 			<p>In due time this document is intended for publishing through the DMs Guild. To avoid copyright infringement, quotation is limited to "fair use", and descriptions of specific mechanisms will only refer to official sourcebooks.</p>
-			<p>Dungeons & Dragons©, D&D©, their respective logos, and all Wizards titles and characters are property of Wizards of the Coast© LLC in the U.S.A. and other countries. ©2021 Wizards</p>
+			<p>Dungeons &amp; Dragons&copy;, D&amp;D&copy;, their respective logos, and all Wizards titles and characters are property of Wizards of the Coast&copy; LLC in the U.S.A. and other countries. &copy;2021 Wizards</p>
 		</legal>
 	</body>
 	<appendix header="Mary, Gary &amp; Lucy" pagination=roman firstpage=1 >
 		<Litterature footer="Litterature" recto=true>
+			<table style="width:100%">
+				<tr>
+				<th>Author</th>
+				<th>Title</th>
+				<th>Publisher</th>
+			</tr>
+			<tr>
+				<td>Jill</td>
+				<td>Smith</td>
+				<td>50</td>
+			</tr>
+			<tr>
+				<td>Eve</td>
+				<td>Jackson</td>
+				<td>94</td>
+			</tr>
+			</table>
 		</preface>
 	</appendix>
 </document>
 <H1>Mary, Gary &amp; Lucy</H1>
 
 
-<b>Mary the Contrary</b> is a player, who always want to tweak the game. Typical situations include:
-• 
-• flavour
-• sourcebooks from older versions
-• lore from older versions
-• tertiary races
-• tertiary classes
-• alternate backgrounds
 
 Adequate solutions ought to be based on
 • clear sistinction between SRD
 • creativity
-• sensible interpretation of exisisting 5erules
-• RAW, RAI & RAF
-Variant races, Custom Origin & Custom Lineage (TCoE p.)
+• sensible 
+• 
 Variant clases
 Optional Feat Rule (PHB)
 
@@ -94,76 +120,78 @@ Optional Feat Rule (PHB)
 
 Terms and Acronyms 
 - used throughout the book except for headlines
-- the notes suppuse basic knowledge and experience wit D&D
-- the notes suppuse basic knowledge and experience wit D&D
+- the notes suppuse basic knowledge and experience wit D&amp;D
+- the notes suppuse basic knowledge and experience wit D&amp;D
 
-0e - OD&D - published by TSR
-1e - AD&D© - 1977 - successor of OD&D - published by TSR
-2e - AD&D 2nd edition - 1989 - successor of 1e - published by TSR
-3e - D&D© 3rd edition - successor of AD&D - published by WotC
+0e - OD&amp;D - published by TSR
+1e - AD&amp;D&copy; - 1977 - successor of OD&amp;D - published by TSR
+2e - AD&amp;D 2nd edition - 1989 - successor of 1e - published by TSR
+3e - D&amp;D&copy; 3rd edition - successor of AD&amp;D - published by WotC
 3.0 - first version of 3e - based on SRD 3.0
 3.5 - revised version of 3e - based on SRD 3.5 - compatible with 3.0
 3.75 - unoffical reference to PF
-4e - D&D 4th edition - 2008 - successor of 3e - published by WotC
-4.9 - unofficial reference to D&D Next
-5e - D&D 5th edition - 2014 - technically a successor of 3.5 & 3.75 - published by WotC
-5.1 - D&D 5th Edition System Reference Document (SRD5)
-AD&D© - Advanced Dungeons and Dragons© - oublished by TSR
-AL - D&D Adventurer's League - ongoing official campaign
-Arneson - inventor of Blackmoor and co-inventor of original D&D
-Basic - D&D with BPR 
-BD&D - D&D Basic Set - 1977 - introductory simplification of OD&D by Holmes
+4e - D&amp;D 4th edition - 2008 - successor of 3e - published by WotC
+4.9 - unofficial reference to D&amp;D Next
+5e - D&amp;D 5th edition - 2014 - technically a successor of 3.5 &amp; 3.75 - published by WotC
+5.1 - D&amp;D 5th Edition System Reference Document (SRD5)
+AD&amp;D&copy; - Advanced Dungeons &amp; Dragons&copy; - oublished by TSR
+AL - D&amp;D Adventurer's League - ongoing official campaign
+Arneson - inventor of Blackmoor and co-inventor of OD&amp;D
+Basic - D&amp;D with BR, DBR and PBR
+BD&amp;D - D&amp;D Basic Set - 1977 - introductory simplification of OD&amp;D by Holmes
 Bodenstedt - Henry Bodenstedt - inventor of 
-BM - Blackmoor - TRPG and campaign setting developed by Arneson - precursor of D&D
-Campaign - continous D&D session through an extended storyline
-CM - Chainmail - (medieval miniature wargame) - TRPG invented by Gygax - precursor of D&D
-Core - usually refers to content from PHB, DMG & MM including 
-• D20© - D20 System© - the game system is copyrighted - not references to a 20-sided die or it use in different games
+BM - Blackmoor&copy; - TRPG and campaign setting developed by Arneson - precursor of D&amp;D
+Campaign - continous D&amp;D session through an extended storyline
+CM - Chainmail - (medieval miniature wargame) - TRPG invented by Gygax - precursor of D&amp;D
+Core - usually refers to content from PHB, DMG &amp; MM including 
+• D20&copy; - D20 System&copy; - the game system is copyrighted - not references to a 20-sided die or it use in different games
 DMs Guild - Dungeon Masters Guild - official sales canal - extended license
-• D&D - abbreviation of Dungeons & Dragons
-• D&D Beyond - official digital toolset for Dungeons & Dragons
-D&D Next - 2012 - playtest of 5e
-• Dungeons & Dragons© - TRPG originally invented by Gygax og Arneson, developed through TSR and later acquired ny WotC
-Eber. - Eberron©
-EE - Elemental Evil
-FR - Forgotten Realms
+• D&amp;D - abbreviation of Dungeons &amp; Dragons
+• D&amp;D Beyond - official digital toolset for Dungeons &amp; Dragons
+D&amp;D Next - 2012 - playtest of 5e
+• Dungeons &amp; Dragons&copy; - TRPG originally invented by Gygax og Arneson, developed through TSR and later acquired ny WotC
+Eber. - Eberron&copy;
+EE - Elemental Evil&copy;
+FR - Forgotten Realms&copy;
 GSL - Game System License
 Gygax - Gary Gygax
-GM - GreyMoor
+GM - Greymoor&copy; - campaign setting created vy Bybax
 Myst. - Mystara
 OGL - Open Gaming License (RPG-Team 2016a) - limited license 
-OD&D - Original D&D - TRPG invented by Gygax og Arneson
-PF - Pathfinder RPG - 2009 - 
+OD&amp;D - Original D&amp;D - TRPG created by Gygax og Arneson
+PF - Pathfinder&copy; RPG - 2009 - unoffical successor to 3.5
 RAI - Rules As Intended
 RAF - Rules As Fun
 RAW - Rules As Written
-Rvn. - Ravnica
-Rvl. - Ravenloft
-Std. - standard - D&D with standard sourcebooks from WotC & AL
-SRD - System Reference Document for D&D 3e, 4e & 5e - current version is SRD5
+Rvn. - Ravnica&copy;
+Rvl. - Ravenloft&copy;
+Std. - standard - D&amp;D with standard sourcebooks from WotC &amp; AL
+SRD - System Reference Document for D&amp;D 3e, 4e &amp; 5e - current version is SRD5
 SB - Siege of Bodenburg - wargame invented by 
-TSR - Tactical Studies Rules - publishing company founded by Gary Gygax and Don Kaye
-WotC - Wizards of the Coast© LLC
+TSR - Tactical Studies Rules&copy; - publishing company founded by Gary Gygax and Don Kaye
+WotC - Wizards of the Coast&copy; LLC
 
 Sourcebooks
-- includes shortened litterature references
+Also used in litterature references
 
-• AI - campaign setting  (RPG-Team 2019a)
-BoxSS - boxed set (RPG-Team 2014d)
-BoxEK - boxed set (RPG-Team 2019c)
+• AI - Acquisitions Incorporated - campaign setting  (RPG-Team 2019a)
+BoxSS - D&amp;D Starter Set - boxed set (RPG-Team 2014d)
+BoxEK - D&amp;D Essentials Kit - boxed set (RPG-Team 2019c)
 BR - Basic 5e rules (RPG-Team 2018a)
-DMG - rulebook (RPG-Team 2014a)
-EEPC - rulebook (RPG-Team 2015a)
-EGtW - campaign setting  (RPG-Team 2020a)
-ERLW - campaign setting  (RPG-Team 2019b)
-GGtR - campaign setting (RPG-Team 2018b)
-IDRF - campaign setting  (RPG-Team 2020b)
-MM - rulebook (RPG-Team 2014b)
-MOOT - campaign setting  (RPG-Team 2020c)
+DMBR - Dungeon Master&apos;s Basic Rules Version (RPG-Team 2015a)
+DMG - Dungeon Master&apos;s Guide - rulebook (RPG-Team 2014a)
+EEPC - Elemental Evil. Player&apos;s Companion - rulebook (RPG-Team 2015a)
+EGtW - Explorer&apos;s Guide to Wildemount - campaign setting  (RPG-Team 2020a)
+ERLW - Eberron: Rising from the Last War - campaign setting  (RPG-Team 2019b)
+GGtR - Guildmasters&apos; Guide to Ravnica - campaign setting (RPG-Team 2018b)
+IDRF - Icewind Dale: Rime of the Frostmaiden - campaign setting  (RPG-Team 2020b)
+MM - Monster Manual - rulebook (RPG-Team 2014b)
+MOOT - Mythic Odysseys of Theros - campaign setting  (RPG-Team 2020c)
 MToF - rulebook (RPG-Team 2018c)
-PHB - rulebook (RPG-Team 2014c)
+PBR - Player&apos;s Basic Rules - rulebook (RPG-Team 2015b)
+PHB - Player&apos;s Handbook - rulebook (RPG-Team 2014c)
 SCAG - campaign setting (RPG-Team 2015b)
-SRD5 - D&D 5th edition Standard Rules (RPG-Team 2016a) - includes OGL and DMs Guild licences
+SRD5 - D&amp;D 5th edition Standard Rules (RPG-Team 2016a) - includes OGL and DMs Guild licences
 TCoE - rulebook (RPG-Team 2020d)
 TP - campaign setting (RPG-Team 2017a)
 VGtM - rulebook (RPG-Team 2016)
@@ -173,32 +201,34 @@ XGtE - rulebook (RPG-Team 2017b)
 
 
 Perspectives on RAW/RAI/RAF:
-D&D 5e: Official Sourcebooks & Errata => Sage Advice => Jimmy Crawford => Mike Mearls => DM
-Reality: DM => Official Sourcebooks & Errata => Sage Advice => Jimmy Crawford => Mike Mearls
+D&amp;D 5e: Official Sourcebooks &amp; Errata => Sage Advice => Jimmy Crawford => Mike Mearls => DM
+Reality: DM => Official Sourcebooks &amp; Errata => Sage Advice => Jimmy Crawford => Mike Mearls
 Many players prefer RAF - they are intended as guide lines - strict RAW/RAI risk becoming generic and mechanic, while the game is intended to be a fun experience.
 
 Litterature
 Lewis, C.S. (1950). The Lion, the Witch and the Wardrobe. London: Geoffrey Bles.
-RPG-Team, Wiz. (2014a). Dungeon Master's Guide . Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2014a). Dungeon Master&apos;s Guide . Renton, WA: Wizards of the Coast.
 RPG-Team, Wiz. (2014b). Monster Manual. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2014c). Player's Handbook. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2014d). D&D Starter Set. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2015a). Elemental Evil. Player's Companion. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2015b). Sword Coast Adventurer’s Guide. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2014c). Player&apos;s Handbook. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2014d). D&amp;D Starter Set. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2015a). Dungeon Master&apos;s Basic Rules V. 0.5. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2015a). Elemental Evil. Player&apos;s Companion. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2015b). Player&apos;s Basic Rules V. 0.3. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2015b). Sword Coast Adventurer&apos;s Guide. Renton, WA: Wizards of the Coast.
 RPG-Team, Wiz. (2016a). Standard Rules Document V. 5.1. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2016b). Volo’s Guide to Monsters. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2016b). Volo&apos;s Guide to Monsters. Renton, WA: Wizards of the Coast.
 RPG-Team, Wiz. (2017a). The Tortle Package. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2017b). Xanathar’s Guide to Everything. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2018a). D&D Basic Rules. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2018b). Guildmasters’ Guide to Ravnica. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2018c). Mordenkainen’s Tomb of Foes. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2018d). Wayfinder's Guide to Eberron. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2017b). Xanathar&apos;s Guide to Everything. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2018a). D&amp;D Basic Rules. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2018b). Guildmasters&apos; Guide to Ravnica. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2018c). Mordenkainen&apos;s Tomb of Foes. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2018d). Wayfinder&apos;s Guide to Eberron. Renton, WA: Wizards of the Coast.
 RPG-Team, Wiz. (2019a). Acquisitions Incorporated. Renton, WA: Wizards of the Coast.
 RPG-Team, Wiz. (2019b). Eberron: Rising from the Last War. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2019c). D&D Essentials Kit. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2019d). Mordenkainen's Fiendish Folio, Volume 1: Monsters Malevolent and Benign. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2020a). Explorer’s Guide to Wildemount. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2020b). Icewind Dale: Rime of the Frostmaiden  Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2019c). D&amp;D Essentials Kit. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2019d). Mordenkainen&apos;s Fiendish Folio, Volume 1: Monsters Malevolent and Benign. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2020a). Explorer&apos;s Guide to Wildemount. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2020b). Icewind Dale: Rime of the Frostmaiden. Renton, WA: Wizards of the Coast.
 RPG-Team, Wiz. (2020c). Mythic Odysseys of Theros. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2020d). Tasha's Cauldron of Everything. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2021). Vav Richten's Guide to Ravenloft. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2020d). Tasha&apos;s Cauldron of Everything. Renton, WA: Wizards of the Coast.
+RPG-Team, Wiz. (2021). Vav Richten&apos;s Guide to Ravenloft. Renton, WA: Wizards of the Coast.
