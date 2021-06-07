@@ -1,174 +1,671 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <!--Mary, Gary & Lucy - Notes on solving disputes between DM and player-->
 
-<document>
-	<title pagination="none">
-		<bastard recto=true>
-			<p />
-			<p />
-			<p />
-			<p />
-			<p />
-			<h1>Mary, Gary &amp; Lucy</h1>
-		</bastard>
-		<frontispiece />
-		<titlepage>
-			<p />
-			<p />
-			<p />
-			<h1>Mary, Gary &amp; Lucy</h1>
-			<p />
-			<p />
-			<h2>Notes on solving disputes between DM and  player</h2>
-			<p />
-			<p />
-			<h3>Gywerd</h3>
-			<p />
-			<p />
-			<h4>Alef</h4>
-		</titlepage>
-		<epigraph />
-		<colophone  folium=recto >
-		</colophone>
-		<dedication />
-		<content footer="Table of Content" >
-		</content>
-		<blank />
-	</tittle>
-	<body header="Mary, Gary &amp; Lucy" pagination="num" firstpage=1 >
-		<preface footer="Preface" recto=true>
-			<h3>Preface</h3>
-			<p>To some extend any roleplayer, anachronist, reenactor, cosplater, or steam punker is a nerd. They may focus extencively on history, religion, mythology, lore, clothing, crafting, architechture, animals, sourcebooks etc. Often it enriches roleplaying. But any party has a <i>Mary the Contrary</i> or a <i>Gary</i></p>
-			<p>A <b>Lucy</> (reference to Narnia - Lewis 1950) can be annoying, even when she's trying her best not to be. Maybe she doesn't really want to play, but does so to please the party. Or she has trouble comprehending the abstracts of the game.</p>
-			<p>A <b>Gary</b> (honorary reference to <i>Gary Cygax</i>, the co-inventor of Original D&amp;D) is the player, who has read older sourcebooks extensively or has played D&amp;D for decades. They know a lot about the game - and sometimes more than the DM about particular subjects. But to the DM and other players, this can become an substantial annoyance, when they frequently refer to different campaign settings, possibilities in earlier editions and old school adventures nobody else has ever heard of.</p>
-			<p><b>Mary the Contrary</b> is a player, who wants to tweak the game - often disagrees with the DM - or does exactly the opposite of, what the DM had expected and planned for the session.</p>
-			<p>Sometimes you even encounter the übernerd, <b>Gary the Contrary</b>, that combine the traits of <i>Gary</i> &amp; <i>Mary the Contrary</i>.</p>
-			<p></p>
-			<p>As DM you need to handle these challenges:</p>
-			<ul>
-				<li>beßerwißer</li>
-				<li>flavour</li>
-				<li>sourcebooks, lore, races &amp; classes from older editions</li>
-				<li>alternative backgrounds</li>
-				<li>exagerated creativity</>
-				<li>lack of initiative</li>
-				<li>lack of participation</li>
-			</ul>
-			<p>Adequate solutions ought to be based on</p>
-			<ul>
-				<li>creativity</li>
-				<li>common sense</li>
-				<li>clear distinction between core rulebooks, other official sourcebooks and homebrew</li>
-				<li>interpretation of exisisting 5e rules</li>
-				<li>balancing RAW, RAI &amp; RAF</li>
-				<li>Optional Feat Rule (PHB)</li>
-			</ul>
-			<p>In order to achieve this, we need set some limitations:</p>
-			<ul>
-				<li>New races must be Custom Lineages (TCoE p. 7) or variants of existing races using Custom Origin (TCoE p.8) - optimally as subclasses</li>
-				<li>New classes must be variants of exsisting classes - optimally as subclasses</li>
-				<li>Alternative backgrounds must be outlined in accordance with standard rules (DMG p.)</li>
-				<li>Anything from older editions must be adapted to 5e - and approved by the DM</li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-			<p></p>
-			<p></p>
-		</preface>
-		<legal footer="Legal Notice" recto=true>
-			<h2>Legal Notice</h2>
-			<p>In due time this document is intended for publishing through the DMs Guild. To avoid copyright infringement, quotation is limited to "fair use", and descriptions of specific mechanisms will only refer to official sourcebooks.</p>
-			<p>Dungeons &amp; Dragons&copy;, D&amp;D&copy;, their respective logos, and all Wizards titles and characters are property of Wizards of the Coast&copy; LLC in the U.S.A. and other countries. &copy;2021 Wizards</p>
-		</legal>
+<html>
+	<body>
+		<titlepart pagination="none">
+			<bastard recto=true >
+				<p />
+				<p />
+				<p />
+				<p />
+				<p />
+				<h1>Mary, Gary &amp; Lucy</h1>
+			</bastard>
+			<frontispiece />
+			<titlepage>
+				<p />
+				<p />
+				<p />
+				<h1>Mary, Gary &amp; Lucy</h1>
+				<p />
+				<p />
+				<h2>Notes on solving disputes between DM and  player</h2>
+				<p />
+				<p />
+				<h3>Gywerd</h3>
+				<p />
+				<p />
+				<h4>Alef</h4>
+			</titlepage>
+			<epigraph />
+			<colophone  folium=recto >
+			</colophone>
+			<dedication />
+			<content footer="Table of Content" >
+			</content>
+			<blank />
+		</titlepart>
+		<mainpart header="Mary, Gary &amp; Lucy" pagination="num" firstpage=1 >
+			<preface footer="Preface" recto=true>
+				<h3>Preface</h3>
+				<p>To some extend any roleplayer, anachronist, reenactor, cosplater, or steam punker is a nerd. They may focus extencively on history, religion, mythology, lore, clothing, crafting, architechture, animals, sourcebooks etc. Often it enriches roleplaying. But any party has a <i>Mary the Contrary</i> or a <i>Gary</i></p>
+				<p>A <b>Lucy</b> (reference to Narnia - Lewis 1950) can be annoying, even when she's trying her best not to be. Maybe she doesn't really want to play, but does so to please the party. Or she has trouble comprehending the abstracts of the game.</p>
+				<p>A <b>Gary</b> (honorary reference to <i>Gary Cygax</i>, the co-inventor of Original D&amp;D) is the player, who has read older sourcebooks extensively or has played D&amp;D for decades. They know a lot about the game - and sometimes more than the DM about particular subjects. But to the DM and other players, this can become an substantial annoyance, when they frequently refer to different campaign settings, possibilities in earlier editions and old school adventures nobody else has ever heard of.</p>
+				<p><b>Mary the Contrary</b> is a player, who wants to tweak the game - often disagrees with the DM - or does exactly the opposite of, what the DM had expected and planned for the session.</p>
+				<p>Sometimes you even encounter the übernerd, <b>Gary the Contrary</b>, that combine the traits of <i>Gary</i> &amp; <i>Mary the Contrary</i>.</p>
+				<p></p>
+				<p>As DM you need to handle these challenges:</p>
+				<ul>
+					<li>beßerwißer</li>
+					<li>flavour</li>
+					<li>sourcebooks, lore, races &amp; classes from older editions</li>
+					<li>alternative backgrounds</li>
+					<li>exagerated creativity</li>
+					<li>lack of initiative</li>
+					<li>lack of participation</li>
+				</ul>
+				<p>Adequate solutions ought to be based on</p>
+				<ul>
+					<li>creativity</li>
+					<li>common sense</li>
+					<li>clear distinction between core rulebooks, other official sourcebooks and homebrew</li>
+					<li>interpretation of exisisting 5e rules</li>
+					<li>balancing RAW, RAI &amp; RAF</li>
+					<li>Optional Feat Rule (PHB)</li>
+				</ul>
+				<p>In order to achieve this, we need set some limitations:</p>
+				<ul>
+					<li>New races must be Custom Lineages (TCoE p. 7) or variants of existing races using Custom Origin (TCoE p.8) - optimally as subclasses</li>
+					<li>New classes must be variants of exsisting classes - optimally as subclasses</li>
+					<li>Alternative backgrounds must be outlined in accordance with standard rules (DMG p.)</li>
+					<li>Anything from older editions must be adapted to 5e - and approved by the DM</li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</preface>
+			<legal footer="Legal Notice" recto=true>
+				<h2>Legal Notice</h2>
+				<p>In due time this document is intended for publishing through the DMs Guild. To avoid copyright infringement, quotation is limited to "fair use", and descriptions of specific mechanisms will only refer to official sourcebooks.</p>
+				<p>Dungeons &amp; Dragons&copy;, D&amp;D&copy;, their respective logos, and all Wizards titles and characters are property of Wizards of the Coast&copy; LLC in the U.S.A. and other countries. &copy;2021 Wizards</p>
+			</legal>
+			<terms footer="Terms" recto=true>
+				<h2>Terms</h2>
+				<p>- contains terms and acronyms used throughout the book except for headlines</p>
+				<p>- provides basic knowledge of D&amp;D</p>
+				<p></p>
+				<table style="width:100%">
+					<tr>
+						<th>Term</th>
+						<th>Description</th>
+						<th>Comment</th>
+						<th>Inspiration</th>
+						<th>Type</th>
+						<th>Publisher</th>
+						<th>Year</th>
+					</tr>
+					<tr>
+						<td>0e</td>
+						<td>OD&amp;D</td>
+						<td>Invented by Gygax og Arneson</td>
+						<td>BM and CM</td>
+						<td>TRPG</td>
+						<td>TSR</td>
+						<td>1974</td>
+					</tr>
+					<tr>
+						<td>1e</td>
+						<td>AD&amp;D&copy;</td>
+						<td>Successor of OD&amp;D</td>
+						<td />
+						<td>TRPG</td>
+						<td>TSR</td>
+						<td>1977</td>
+					</tr>
+					<tr>
+						<td>2e</td>
+						<td>AD&amp;D 2nd edition</td>
+						<td>Successor of 1e</td>
+						<td />
+						<td>TRPG</td>
+						<td>TSR</td>
+						<td>1989</td>
+					</tr>
+					<tr>
+						<td>3e</td>
+						<td>D&amp;D&copy; 3rd edition</td>
+						<td>Successor of 2e</td>
+						<td />
+						<td>TRPG</td>
+						<td>WotC</td>
+						<td>2000</td>
+					</tr>
+					<tr>
+						<td>3.0</td>
+						<td>1st revision of 3e</td>
+						<td>based on SRD 3.0</td>
+						<td />
+						<td>TRPG</td>
+						<td>WotC</td>
+						<td>2000</td>
+					</tr>
+					<tr>
+						<td>3.5</td>
+						<td>2nd revision of 3e</td>
+						<td>Based on SRD 3.5 - compatible with 3.0</td>
+						<td />
+						<td>TRPG</td>
+						<td>WotC</td>
+						<td>2003</td>
+					</tr>
+					<tr>
+						<td>3.75</td>
+						<td>informal reference to PF</td>
+						<td>Successor of 3.5</td>
+						<td />
+						<td>TRPG</td>
+						<td>Paizo</td>
+						<td>2009</td>
+					</tr>
+					<tr>
+						<td>4e</td>
+						<td>D&amp;D&copy; 4th edition</td>
+						<td>Successor of 3e</td>
+						<td />
+						<td>TRPG</td>
+						<td>WotC</td>
+						<td>2008</td>
+					</tr>
+					<tr>
+						<td>4.9</td>
+						<td>Informal reference to DDN</td>
+						<td>Playtest of 5e</td>
+						<td>3.5 &amp; PF</td>
+						<td>TRPG</td>
+						<td>WotC</td>
+						<td>2012</td>
+					</tr>
+					<tr>
+						<td>5e</td>
+						<td>D&amp;D&copy; 5th edition</td>
+						<td>Successor of 4e</td>
+						<td>3.5 &amp; PF</td>
+						<td>TRPG</td>
+						<td>WotC</td>
+						<td>2014</td>
+					</tr>
+					<tr>
+						<td>5.0</td>
+						<td>1st revision of 5e</td>
+						<td>Based on SRD 5.0</td>
+						<td />
+						<td>TRPG</td>
+						<td>WotC</td>
+						<td>2016</td>
+					</tr>
+					<tr>
+						<td>5.1</td>
+						<td>2nd revision of 5e</td>
+						<td>based on SRD5 - compatible with SRD 5.0</td>
+						<td />
+						<td>TRPG</td>
+						<td>WotC</td>
+						<td>2016</td>
+					</tr>
+					<tr>
+						<td>AD&amp;D&copy;</td>
+						<td>Advanced Dungeons &amp; Dragons&copy</td>
+						<td>1e &amp; 2e</td>
+						<td>0D&amp;D</td>
+						<td>TRPG</td>
+						<td>TSR</td>
+						<td>1977/1989</td>
+					</tr>
+					<tr>
+						<td>AL</td>
+						<td>Adventurer's League (5e)</td>
+						<td>Ongoing official campaign</td>
+						<td>Enc.</td>
+						<td>Organized play program</td>
+						<td>WotC</td>
+						<td>2014-</td>
+					</tr>
+					<tr>
+						<td>Arneson</td>
+						<td>Dave Arneson</td>
+						<td>inventor of BM and co-inventor of OD&amp;D</td>
+						<td />
+						<td>Person</td>
+						<td>n/a</td>
+						<td>1947-2009</td>
+					</tr>
+					<tr>
+						<td>Basic</td>
+						<td>Game with basic rules</td>
+						<td>BR, DBR and PBRcomment</td>
+						<td />
+						<td>TRPG</td>
+						<td>WotC</td>
+						<td />
+					</tr>
+					<tr>
+						<td>BD&amp;D</td>
+						<td>D&amp;D Basic Set</td>
+						<td>introductory simplification of OD&amp;D by Holmes</td>
+						<td>TRPG</td>
+						<td>TSR</td>
+						<td>1977</td>
+					</tr>
+					<tr>
+						<td>Bodenstedt</td>
+						<td>Henry Bodenstedt</td>
+						<td>inventor of SoB</td>
+						<td>Person</td>
+						<td>n/A</td>
+						<td>1929-1999</td>
+					</tr>
+					<tr>
+						<td>BM</td>
+						<td>Blackmoor&copy;</td>
+						<td>created by Arneson</td>
+						<td>BS</td>
+						<td>TRPG/D&amp;D campaign setting</td>
+						<td>Corner of the Table/TSR</td>
+						<td>year</td>
+					</tr>
+					<tr>
+						<td>BS</td>
+						<td>Braunstein</td>
+						<td>Created by David Wesely</td>
+						<td>Strategos &amp; Diplomacy</td>
+						<td>experimental game/genre</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
+					<tr>
+						<td>C&amp;R</td>
+						<td>Cavaliers and Roundheads</td>
+						<td>created by Gygax &amp Perren</td>
+						<td>CM</td>
+						<td>miniature wargame</td>
+						<td><i>TSR</td>
+						<td>1973</td>
+					</tr>
+					<tr>
+						<td>Campaign</td>
+						<td>Adventure with multiple game sessions</td>
+						<td>Extended storyline</td>
+						<td />
+						<td />
+						<td />
+						<td /td
+					</tr>
+					<tr>
+						<td>CM</td>
+						<td>Chainmail</td>
+						<td>created by Gygax &amp Perren</td>
+						<td>SoB</td>
+						<td>miniature wargame</td>
+						<td><i>The Domesday Book</i>. Castle & Crusade Society</td>
+						<td>1971</td>
+					</tr>
+					<tr>
+						<td>Core</td>
+						<td>Game with core rules</td>
+						<td>PHB, DMG &amp; MM</td>
+						<td />
+						<td>TRPG</td>
+						<td>WotC</td>
+						<td />
+					</tr>
+					<tr>
+						<td>d10</td>
+						<td>Deltohedron with digits (0-9) - 0=10 when not used with d100</td>
+						<td>10-sided die</td>
+						<td />
+						<td />
+						<td />
+						<td />
+					</tr>
+					<tr>
+						<td>d100</td>
+						<td>Deltohedron die with digits (00-90) used with d10 - add result (0+00=100)</td>
+						<td>Cannot be replaced by a zocchihedron (100-sided die) for counting</td>
+						<td />
+						<td />
+						<td />
+						<td />
+					</tr>
+					<tr>
+						<td>d12</td>
+						<td>Dodecahedron with digits</td>
+						<td>12-sided die</td>
+						<td />
+						<td />
+						<td />
+						<td />
+					</tr>
+					<tr>
+						<td>d20</td>
+						<td>Icosahedron with digits</td>
+						<td>20-sided die</td>
+						<td />
+						<td />
+						<td />
+						<td />
+					</tr>
+					<tr>
+						<td>D20</td>
+						<td>d20 System&copy;</td>
+						<td />
+						<td>d10 system (<i>Storytelling System</i>) from <b>White Wolf<i></td>
+						<td>game system</td>
+						<td>WotC</td>
+						<td>2000</td>
+					</tr>
+					<tr>
+						<td>d4</td>
+						<td>Tetrahedron die with digits</td>
+						<td>4-sided die</td>
+						<td />
+						<td />
+						<td />
+						<td />
+					</tr>
+					<tr>
+						<td>d6</td>
+						<td>Cube with digits</td>
+						<td>used like ordinary 6-sided die with dots</td>
+						<td />
+						<td />
+						<td />
+						<td />
+					</tr>
+					<tr>
+						<td>d60</td>
+						<td>Kisdodecahedron with digits</td>
+						<td>60-sided die - seldom used with D&amp;D</td>
+						<td />
+						<td />
+						<td />
+						<td />
+					</tr>
+					<tr>
+						<td>d8</td>
+						<td>Octahedron with digits</td>
+						<td>8-sided die</td>
+						<td />
+						<td />
+						<td />
+						<td />
+					</tr>
+					<tr>
+						<td>D&amp;D&copy;</td>
+						<td>Dungeons &amp; Dragons&copy;</td>
+						<td>invented by Gygax og Arneson</td>
+						<td>CM &amp; CR</td>
+						<td>TRPG</td>
+						<td>TSR/WotC</td>
+						<td>1974</td>
+					</tr>
+					<tr>
+						<td>DDB</td>
+						<td>D&amp;D Beyond&copy;</td>
+						<td>official digital toolset for D&amp;D</td>
+						<td />
+						<td>website</td>
+						<td>WotC</td>
+						<td>2017-</td>
+					</tr>
+					<tr>
+						<td>DDN</td>
+						<td>D&amp;D Next&copy;</td>
+						<td>Playtest of 5e</td>
+						<td>3.5 & 3.75</td>
+						<td>TRPG</td>
+						<td>WotC</td>
+						<td>2012</td>
+					</tr>
+					<tr>
+						<td>Diplomacy</td>
+						<td />
+						<td>created by Allan B. Calhamer</td>
+						<td />
+						<td>Board game</td>
+						<td>Games Research/Avalon Hill/WotC</td>
+						<td>1954</td>
+					</tr>
+					<tr>
+						<td>DL</td>
+						<td>Dragonlance&copy;</td>
+						<td>created by L. Hickman, T. Hickman &amp; M. Weis</td>
+						<td />
+						<td>campaign setting</td>
+						<td>TSR/WotC</td>
+						<td>1984</td>
+					</tr>
+					<tr>
+						<td>DMs Guild</td>
+						<td>Dungeon Masters Guild</td>
+						<td>Official sales challel</td>
+						<td />
+						<td>website</td>
+						<td>WotC/OneBookShelf</td>
+						<td>2016</td>
+					</tr>
+					<tr>
+						<td>Eber.</td>
+						<td>Eberron&copy;</td>
+						<td />
+						<td />
+						<td>campaign setting</td>
+						<td>WotC</td>
+						<td>2004</td>
+					</tr>
+					<tr>
+						<td>EE</td>
+						<td>Elemental Evil</td>
+						<td />
+						<td />
+						<td>storyline</td>
+						<td>WotC/AL</td>
+						<td>year</td>
+					</tr>
+					<tr>
+						<td>Enc.</td>
+						<td>D&amp;D Encounters (4e)</td>
+						<td>Ongoing official campaign</td>
+						<td>Living Campaign</td>
+						<td>Organized play program</td>
+						<td>WotC</td>
+						<td>2010-2014</td>
+					</tr>
+					<tr>
+						<td>FR</td>
+						<td>Forgotten Realms&copy;</td>
+						<td>created by Ed Greenwood</td>
+						<td />
+						<td>campaign setting</td>
+						<td>TSR/WotC</td>
+						<td>1987</td>
+					</tr>
+					<tr>
+						<td>GH</td>
+						<td>Greyhawk&copy;</td>
+						<td>created by Gygax</td>
+						<td>BM</td>
+						<td>campaign setting</td>
+						<td>TSR/WotC</td>
+						<td>1980</td>
+					</tr>
+					<tr>
+						<td>GSL</td>
+						<td>Game System License</td>
+						<td>Part of SRD 4e</td>
+						<td />
+						<td>License</td>
+						<td>WoTC</td>
+						<td>2008</td>
+					</tr>
+					<tr>
+						<td>Gygax</td>
+						<td>Gary Gygax</td>
+						<td>co-creator of CM, CR &amp; D&amp;D</td>
+						<td />
+						<td>Person</td>
+						<td />
+						<td>1938-2008</td>
+					</tr>
+					<tr>
+						<td>LC</td>
+						<td>Living City</td>
+						<td>Ongoing official 2e/3e campaign</td>
+						<td>RPGA tournaments</td>
+						<td>Organized play program set in FR</td>
+						<td>TSR/WotC</td>
+						<td>1987-2003</td>
+					</tr>
+					<tr>
+						<td>LF</td>
+						<td>Living Forgotten Realms</td>
+						<td>Ongoing official 4e campaign</td>
+						<td>LC &amp; LJ</td>
+						<td>Organized play program set in FR</td>
+						<td>WotC</td>
+						<td>2008-2014</td>
+					</tr>
+					<tr>
+						<td>LG</td>
+						<td>Living Greyhawk</td>
+						<td>Ongoing official 3e campaign</td>
+						<td>LC &amp; LJ</td>
+						<td>Organized play program st in GH</td>
+						<td>WotC</td>
+						<td>2000-2008</td>
+					</tr>
+					<tr>
+						<td>LGJ</td>
+						<td>Living Greyhawk Journal</td>
+						<td>Information on LG</td>
+						<td>Dragon</td>
+						<td>Magazine</td>
+						<td>WotC</td>
+						<td>2000-2004</td>
+					</tr>
+					<tr>
+						<td>Living Campaign</td>
+						<td>LC, LJ, LG & LF</td>
+						<td>Ongoing official campaign</td>
+						<td>RPGA tournaments </td>
+						<td>Organized play program set in FH</td>
+						<td>TSR/WotC</td>
+						<td>2000-2008</td>
+					</tr>
+						<td>LJ</td>
+						<td>Living Jungle</td>
+						<td>Ongoing official 2e/3e campaign</td>
+						<td>LC</td>
+						<td>Organized play program in FR</td>
+						<td>TSR/WotC</td>
+						<td>1995-2003</td>
+					</tr>
+					<tr>
+						<td>Myst.</td>
+						<td>Mystara</td>
+						<td>created by L. Schick & T. Moldway</td>
+						<td>BM</td>
+						<td>campaign setting</td>
+						<td>TSR/WotC</td>
+						<td>1981</td>
+					</tr>
+					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
+					<tr>
+						<td>PolyHedron</td>
+						<td>RPGA publication</td>
+						<td>by members - for members - RPGA events</td>
+						<td>Dragon</td>
+						<td>Magazine</td>
+						<td>TSR/Paizo</td>
+						<td>1981-2004</td>
+					</tr>
+					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
+					<tr>
+						<td>RPGA</td>
+						<td>Role Playing Game Association</td>
+						<td>Ongoing official campaign</td>
+						<td>Gen Con</td>
+						<td>Association</td>
+						<td>TSR/WotC</td>
+						<td>1980-2014</td>
+					</tr>
+					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
+					<tr>
+						<td>Std.</td>
+						<td>Game with standard rules</td>
+						<td>Official sourcebooks</td>
+						<td />
+						<td>TRPG</td>
+						<td>WotC/AL</td>
+						<td />
+					</tr>
+				</table>
+				<p></p>
+			</terms>
+		<mainpart>
+		<appendix header="Mary, Gary &amp; Lucy" pagination=roman firstpage=1 >
+			<Litterature footer="Litterature" recto=true>
+				<table style="width:100%">
+					<tr>
+						<th>Author</th>
+						<th>Title</th>
+						<th>Publisher</th>
+					</tr>
+					<tr>
+						<td>Jill</td>
+						<td>Smith</td>
+						<td>50</td>
+					</tr>
+					<tr>
+						<td>Eve</td>
+						<td>Jackson</td>
+						<td>94</td>
+					</tr>
+				</table>
+			</preface>
+		</appendix>
 	</body>
-	<appendix header="Mary, Gary &amp; Lucy" pagination=roman firstpage=1 >
-		<Litterature footer="Litterature" recto=true>
-			<table style="width:100%">
-				<tr>
-				<th>Author</th>
-				<th>Title</th>
-				<th>Publisher</th>
-			</tr>
-			<tr>
-				<td>Jill</td>
-				<td>Smith</td>
-				<td>50</td>
-			</tr>
-			<tr>
-				<td>Eve</td>
-				<td>Jackson</td>
-				<td>94</td>
-			</tr>
-			</table>
-		</preface>
-	</appendix>
-</document>
-<H1>Mary, Gary &amp; Lucy</H1>
+</html>
 
-
-
-Adequate solutions ought to be based on
-• clear sistinction between SRD
-• creativity
-• sensible 
-• 
-Variant clases
-Optional Feat Rule (PHB)
-
-
-
-Terms and Acronyms 
-- used throughout the book except for headlines
-- the notes suppuse basic knowledge and experience wit D&amp;D
-- the notes suppuse basic knowledge and experience wit D&amp;D
-
-0e - OD&amp;D - published by TSR
-1e - AD&amp;D&copy; - 1977 - successor of OD&amp;D - published by TSR
-2e - AD&amp;D 2nd edition - 1989 - successor of 1e - published by TSR
-3e - D&amp;D&copy; 3rd edition - successor of AD&amp;D - published by WotC
-3.0 - first version of 3e - based on SRD 3.0
-3.5 - revised version of 3e - based on SRD 3.5 - compatible with 3.0
-3.75 - unoffical reference to PF
-4e - D&amp;D 4th edition - 2008 - successor of 3e - published by WotC
-4.9 - unofficial reference to D&amp;D Next
-5e - D&amp;D 5th edition - 2014 - technically a successor of 3.5 &amp; 3.75 - published by WotC
-5.1 - D&amp;D 5th Edition System Reference Document (SRD5)
-AD&amp;D&copy; - Advanced Dungeons &amp; Dragons&copy; - oublished by TSR
-AL - D&amp;D Adventurer's League - ongoing official campaign
-Arneson - inventor of Blackmoor and co-inventor of OD&amp;D
-Basic - D&amp;D with BR, DBR and PBR
-BD&amp;D - D&amp;D Basic Set - 1977 - introductory simplification of OD&amp;D by Holmes
-Bodenstedt - Henry Bodenstedt - inventor of 
-BM - Blackmoor&copy; - TRPG and campaign setting developed by Arneson - precursor of D&amp;D
-Campaign - continous D&amp;D session through an extended storyline
-CM - Chainmail - (medieval miniature wargame) - TRPG invented by Gygax - precursor of D&amp;D
-Core - usually refers to content from PHB, DMG &amp; MM including 
-• D20&copy; - D20 System&copy; - the game system is copyrighted - not references to a 20-sided die or it use in different games
-DMs Guild - Dungeon Masters Guild - official sales canal - extended license
-• D&amp;D - abbreviation of Dungeons &amp; Dragons
-• D&amp;D Beyond - official digital toolset for Dungeons &amp; Dragons
-D&amp;D Next - 2012 - playtest of 5e
-• Dungeons &amp; Dragons&copy; - TRPG originally invented by Gygax og Arneson, developed through TSR and later acquired ny WotC
-Eber. - Eberron&copy;
-EE - Elemental Evil&copy;
-FR - Forgotten Realms&copy;
-GSL - Game System License
-Gygax - Gary Gygax
-GM - Greymoor&copy; - campaign setting created vy Bybax
-Myst. - Mystara
-OGL - Open Gaming License (RPG-Team 2016a) - limited license 
+Myst. - Mystara - 
 OD&amp;D - Original D&amp;D - TRPG created by Gygax og Arneson
+OGL - Open Gaming License (RPG-Team 2016a) - limited license
+OO - One-of adventure - storyline intended for one gamesession
+Perren - Jeff Perren - creator of new rules for SoB &amp; co-creator of CM &amp; CR
 PF - Pathfinder&copy; RPG - 2009 - unoffical successor to 3.5
 RAI - Rules As Intended
 RAF - Rules As Fun
 RAW - Rules As Written
 Rvn. - Ravnica&copy;
 Rvl. - Ravenloft&copy;
-Std. - standard - D&amp;D with standard sourcebooks from WotC &amp; AL
+SoB - 
+Std. - Game with standard rules-  official sourcebooks from WotC &amp; AL
+Strategos - Strategos: The American Game of War - created by C. A. L. Totten - Wargame - Wargame - 1880
 SRD - System Reference Document for D&amp;D 3e, 4e &amp; 5e - current version is SRD5
 SB - Siege of Bodenburg - wargame invented by 
 TSR - Tactical Studies Rules&copy; - publishing company founded by Gary Gygax and Don Kaye
+Wargame - strategic simulation game - invented as different prussian/austrian <i>krigsspiele</i> - Chess - game genre - J.C.L. Hellwig (1743-1831)/J.G.J. Venturini (1772-1802)/J.F. Opiz (1741-1812)/G.H.R.J. von Reisswitch (1794–1827)
 WotC - Wizards of the Coast&copy; LLC
 
 Sourcebooks
