@@ -3,41 +3,42 @@
 
 <html>
 	<body>
-		<titlepart pagination="none">
-			<bastard recto=true >
+		<main name="titlepart" pagination="none">
+			<section name="bastard" class="recto" >
 				<p />
 				<p />
 				<p />
 				<p />
 				<p />
 				<h1>Mary, Gary &amp; Lucy</h1>
-			</bastard>
-			<frontispiece />
-			<titlepage>
+			</section>
+			<section name="frontispiece" class="verso" />
+			<section name="titlepage" class="recto" >
 				<p />
 				<p />
 				<p />
 				<h1>Mary, Gary &amp; Lucy</h1>
 				<p />
 				<p />
-				<h2>Notes on solving disputes between DM and  player</h2>
+				<h2>Notes on solving disputes between DM and player</h2>
 				<p />
 				<p />
 				<h3>Gywerd</h3>
 				<p />
 				<p />
 				<h4>Alef</h4>
-			</titlepage>
-			<epigraph />
-			<colophone  folium=recto >
-			</colophone>
-			<dedication />
-			<content footer="Table of Content" >
-			</content>
-			<blank />
-		</titlepart>
-		<mainpart header="Mary, Gary &amp; Lucy" pagination="num" firstpage=1 >
-			<preface footer="Preface" recto=true>
+			</section>
+			<section name="epigraph" class="verso" />
+			<section name="colophone" class="recto" >
+			</section>
+			<section name="dedication" class="verso" />
+			<section name="content" footer="Table of Content" class="recto" >
+			</section>
+			<section name="blank" class="verso" />
+		</main>
+		<main name="mainpart" class="pagination-num">
+			<header>Mary, Gary &amp; Lucy</header>
+			<section name="preface" class="recto">
 				<h3>Preface</h3>
 				<p>To some extend any roleplayer, anachronist, reenactor, cosplater, or steam punker is a nerd. They may focus extencively on history, religion, mythology, lore, clothing, crafting, architechture, animals, sourcebooks etc. Often it enriches roleplaying. But any party has a <i>Mary the Contrary</i> or a <i>Gary</i></p>
 				<p>A <b>Lucy</b> (reference to Narnia - Lewis 1950) can be annoying, even when she's trying her best not to be. Maybe she doesn't really want to play, but does so to please the party. Or she has trouble comprehending the abstracts of the game.</p>
@@ -74,13 +75,15 @@
 					<li></li>
 					<li></li>
 				</ul>
-			</preface>
-			<legal footer="Legal Notice" recto=true>
+				<footer>Preface</footer>
+			</section>
+			<section name="legal" class="recto">
 				<h2>Legal Notice</h2>
 				<p>In due time this document is intended for publishing through the DMs Guild. To avoid copyright infringement, quotation is limited to "fair use", and descriptions of specific mechanisms will only refer to official sourcebooks.</p>
 				<p>Dungeons &amp; Dragons&copy;, D&amp;D&copy;, their respective logos, and all Wizards titles and characters are property of Wizards of the Coast&copy; LLC in the U.S.A. and other countries. &copy;2021 Wizards</p>
-			</legal>
-			<terms footer="Terms" recto=true>
+				<footer>Legal Notice</footer>
+			</section>
+			<section name="terms" class="recto">
 				<h2>Terms</h2>
 				<p>- contains terms and acronyms used throughout the book except for headlines</p>
 				<p>- provides basic knowledge of D&amp;D</p>
@@ -99,16 +102,16 @@
 						<td>0e</td>
 						<td>OD&amp;D</td>
 						<td>Invented by Gygax og Arneson</td>
-						<td>BM and CM</td>
+						<td>BM, CM &amp; CR</td>
 						<td>TRPG</td>
 						<td>TSR</td>
 						<td>1974</td>
 					</tr>
 					<tr>
 						<td>1e</td>
-						<td>AD&amp;D&copy;</td>
+						<td>AD&amp;D 1st Edition</td>
 						<td>Successor of OD&amp;D</td>
-						<td />
+						<td>0e</td>
 						<td>TRPG</td>
 						<td>TSR</td>
 						<td>1977</td>
@@ -116,8 +119,8 @@
 					<tr>
 						<td>2e</td>
 						<td>AD&amp;D 2nd edition</td>
-						<td>Successor of 1e</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
+						<td>1e</td>
 						<td>TRPG</td>
 						<td>TSR</td>
 						<td>1989</td>
@@ -125,8 +128,8 @@
 					<tr>
 						<td>3e</td>
 						<td>D&amp;D&copy; 3rd edition</td>
-						<td>Successor of 2e</td>
-						<td />
+						<td>Successor of AD&amp;D</td>
+						<td>2e</td>
 						<td>TRPG</td>
 						<td>WotC</td>
 						<td>2000</td>
@@ -135,7 +138,7 @@
 						<td>3.0</td>
 						<td>1st revision of 3e</td>
 						<td>based on SRD 3.0</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>TRPG</td>
 						<td>WotC</td>
 						<td>2000</td>
@@ -144,25 +147,25 @@
 						<td>3.5</td>
 						<td>2nd revision of 3e</td>
 						<td>Based on SRD 3.5 - compatible with 3.0</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>TRPG</td>
 						<td>WotC</td>
 						<td>2003</td>
 					</tr>
 					<tr>
 						<td>3.75</td>
-						<td>informal reference to PF</td>
-						<td>Successor of 3.5</td>
-						<td />
-						<td>TRPG</td>
-						<td>Paizo</td>
-						<td>2009</td>
+						<td>Informal reference to PF</td>
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>4e</td>
 						<td>D&amp;D&copy; 4th edition</td>
-						<td>Successor of 3e</td>
-						<td />
+						<td>Official successor of 3.5</td>
+						<td>3e</td>
 						<td>TRPG</td>
 						<td>WotC</td>
 						<td>2008</td>
@@ -170,16 +173,16 @@
 					<tr>
 						<td>4.9</td>
 						<td>Informal reference to DDN</td>
-						<td>Playtest of 5e</td>
-						<td>3.5 &amp; PF</td>
-						<td>TRPG</td>
-						<td>WotC</td>
-						<td>2012</td>
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>5e</td>
 						<td>D&amp;D&copy; 5th edition</td>
-						<td>Successor of 4e</td>
+						<td>Official successor of 4e</td>
 						<td>3.5 &amp; PF</td>
 						<td>TRPG</td>
 						<td>WotC</td>
@@ -189,7 +192,7 @@
 						<td>5.0</td>
 						<td>1st revision of 5e</td>
 						<td>Based on SRD 5.0</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>TRPG</td>
 						<td>WotC</td>
 						<td>2016</td>
@@ -198,14 +201,14 @@
 						<td>5.1</td>
 						<td>2nd revision of 5e</td>
 						<td>based on SRD5 - compatible with SRD 5.0</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>TRPG</td>
 						<td>WotC</td>
 						<td>2016</td>
 					</tr>
 					<tr>
 						<td>AD&amp;D&copy;</td>
-						<td>Advanced Dungeons &amp; Dragons&copy</td>
+						<td>Advanced Dungeons &amp; Dragons&copy;</td>
 						<td>1e &amp; 2e</td>
 						<td>0D&amp;D</td>
 						<td>TRPG</td>
@@ -214,8 +217,8 @@
 					</tr>
 					<tr>
 						<td>AL</td>
-						<td>Adventurer's League (5e)</td>
-						<td>Ongoing official campaign</td>
+						<td>Adventurer's League</td>
+						<td>Ongoing official 5e campaign</td>
 						<td>Enc.</td>
 						<td>Organized play program</td>
 						<td>WotC</td>
@@ -225,24 +228,25 @@
 						<td>Arneson</td>
 						<td>Dave Arneson</td>
 						<td>inventor of BM and co-inventor of OD&amp;D</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>Person</td>
-						<td>n/a</td>
+						<td style="background-color:#DFDFDF" />
 						<td>1947-2009</td>
 					</tr>
 					<tr>
 						<td>Basic</td>
 						<td>Game with basic rules</td>
-						<td>BR, DBR and PBRcomment</td>
-						<td />
+						<td>BR, DBR and PBR</td>
+						<td style="background-color:#DFDFDF" />
 						<td>TRPG</td>
 						<td>WotC</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>BD&amp;D</td>
 						<td>D&amp;D Basic Set</td>
 						<td>introductory simplification of OD&amp;D by Holmes</td>
+						<td>OD&amp;D</td>
 						<td>TRPG</td>
 						<td>TSR</td>
 						<td>1977</td>
@@ -251,15 +255,16 @@
 						<td>Bodenstedt</td>
 						<td>Henry Bodenstedt</td>
 						<td>inventor of SoB</td>
+						<td style="background-color:#DFDFDF" />
 						<td>Person</td>
-						<td>n/A</td>
+						<td style="background-color:#DFDFDF" />
 						<td>1929-1999</td>
 					</tr>
 					<tr>
 						<td>BM</td>
 						<td>Blackmoor&copy;</td>
 						<td>created by Arneson</td>
-						<td>BS</td>
+						<td>BS & CM</td>
 						<td>TRPG/D&amp;D campaign setting</td>
 						<td>Corner of the Table/TSR</td>
 						<td>year</td>
@@ -276,25 +281,25 @@
 					<tr>
 						<td>C&amp;R</td>
 						<td>Cavaliers and Roundheads</td>
-						<td>created by Gygax &amp Perren</td>
+						<td>created by Gygax &amp; Perren</td>
 						<td>CM</td>
 						<td>miniature wargame</td>
-						<td><i>TSR</td>
+						<td>TSR</td>
 						<td>1973</td>
 					</tr>
 					<tr>
 						<td>Campaign</td>
 						<td>Adventure with multiple game sessions</td>
 						<td>Extended storyline</td>
-						<td />
-						<td />
-						<td />
-						<td /td
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>CM</td>
 						<td>Chainmail</td>
-						<td>created by Gygax &amp Perren</td>
+						<td>created by Gygax &amp; Perren</td>
 						<td>SoB</td>
 						<td>miniature wargame</td>
 						<td><i>The Domesday Book</i>. Castle & Crusade Society</td>
@@ -304,52 +309,52 @@
 						<td>Core</td>
 						<td>Game with core rules</td>
 						<td>PHB, DMG &amp; MM</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>TRPG</td>
 						<td>WotC</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>d10</td>
 						<td>Deltohedron with digits (0-9) - 0=10 when not used with d100</td>
 						<td>10-sided die</td>
-						<td />
-						<td />
-						<td />
-						<td />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>d100</td>
-						<td>Deltohedron die with digits (00-90) used with d10 - add result (0+00=100)</td>
+						<td>Deltohedron with digits (00-90) used with d10 - add result (0+00=100)</td>
 						<td>Cannot be replaced by a zocchihedron (100-sided die) for counting</td>
-						<td />
-						<td />
-						<td />
-						<td />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>d12</td>
 						<td>Dodecahedron with digits</td>
 						<td>12-sided die</td>
-						<td />
-						<td />
-						<td />
-						<td />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>d20</td>
 						<td>Icosahedron with digits</td>
 						<td>20-sided die</td>
-						<td />
-						<td />
-						<td />
-						<td />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>D20</td>
 						<td>d20 System&copy;</td>
-						<td />
-						<td>d10 system (<i>Storytelling System</i>) from <b>White Wolf<i></td>
+						<td>Based on 3e</td>
+						<td>2e</td>
 						<td>game system</td>
 						<td>WotC</td>
 						<td>2000</td>
@@ -358,37 +363,37 @@
 						<td>d4</td>
 						<td>Tetrahedron die with digits</td>
 						<td>4-sided die</td>
-						<td />
-						<td />
-						<td />
-						<td />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>d6</td>
 						<td>Cube with digits</td>
 						<td>used like ordinary 6-sided die with dots</td>
-						<td />
-						<td />
-						<td />
-						<td />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>d60</td>
 						<td>Kisdodecahedron with digits</td>
 						<td>60-sided die - seldom used with D&amp;D</td>
-						<td />
-						<td />
-						<td />
-						<td />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>d8</td>
 						<td>Octahedron with digits</td>
 						<td>8-sided die</td>
-						<td />
-						<td />
-						<td />
-						<td />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
 						<td>D&amp;D&copy;</td>
@@ -403,7 +408,7 @@
 						<td>DDB</td>
 						<td>D&amp;D Beyond&copy;</td>
 						<td>official digital toolset for D&amp;D</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>website</td>
 						<td>WotC</td>
 						<td>2017-</td>
@@ -419,9 +424,9 @@
 					</tr>
 					<tr>
 						<td>Diplomacy</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>created by Allan B. Calhamer</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>Board game</td>
 						<td>Games Research/Avalon Hill/WotC</td>
 						<td>1954</td>
@@ -430,7 +435,7 @@
 						<td>DL</td>
 						<td>Dragonlance&copy;</td>
 						<td>created by L. Hickman, T. Hickman &amp; M. Weis</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>campaign setting</td>
 						<td>TSR/WotC</td>
 						<td>1984</td>
@@ -439,7 +444,7 @@
 						<td>DMs Guild</td>
 						<td>Dungeon Masters Guild</td>
 						<td>Official sales challel</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>website</td>
 						<td>WotC/OneBookShelf</td>
 						<td>2016</td>
@@ -447,8 +452,8 @@
 					<tr>
 						<td>Eber.</td>
 						<td>Eberron&copy;</td>
-						<td />
-						<td />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 						<td>campaign setting</td>
 						<td>WotC</td>
 						<td>2004</td>
@@ -456,8 +461,8 @@
 					<tr>
 						<td>EE</td>
 						<td>Elemental Evil</td>
-						<td />
-						<td />
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
 						<td>storyline</td>
 						<td>WotC/AL</td>
 						<td>year</td>
@@ -475,7 +480,7 @@
 						<td>FR</td>
 						<td>Forgotten Realms&copy;</td>
 						<td>created by Ed Greenwood</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>campaign setting</td>
 						<td>TSR/WotC</td>
 						<td>1987</td>
@@ -493,7 +498,7 @@
 						<td>GSL</td>
 						<td>Game System License</td>
 						<td>Part of SRD 4e</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>License</td>
 						<td>WoTC</td>
 						<td>2008</td>
@@ -502,9 +507,9 @@
 						<td>Gygax</td>
 						<td>Gary Gygax</td>
 						<td>co-creator of CM, CR &amp; D&amp;D</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>Person</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>1938-2008</td>
 					</tr>
 					<tr>
@@ -552,6 +557,7 @@
 						<td>TSR/WotC</td>
 						<td>2000-2008</td>
 					</tr>
+					<tr>
 						<td>LJ</td>
 						<td>Living Jungle</td>
 						<td>Ongoing official 2e/3e campaign</td>
@@ -570,13 +576,52 @@
 						<td>1981</td>
 					</tr>
 					<tr>
+						<td>OD&amp;D</td>
+						<td>Original D&amp;D</td>
+						<td>created by Gygax og Arneson</td>
+						<td>CM, CR & BM</td>
+						<td>TRPG</td>
+						<td>TSR</td>
+						<td>1974</td>
+					</tr>
+					<tr>
+						<td>OGL</td>
+						<td>Open Gaming License</td>
+						<td>RPG-Team 2016a</td>
+						<td style="background-color:#DFDFDF" />
+						<td>licens</td>
+						<td>WotC</td>
+						<td>2016</td>
+					</tr>
+					<tr>
+						<td>OO</td>
+						<td>One-of adventure</td>
+						<td>intended for one game session</td>
+						<td style="background-color:#DFDFDF" />
+						<td>storyline</td>
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+					</tr>
+					<tr>
+						<td>Perren</td>
+						<td>Jeff Perren</td>
+						<td>creator of new rules for SoB &amp; co-creator of CM &amp; CR</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Person</td>
+						<td style="background-color:#DFDFDF" />
+						<td style="background-color:#DFDFDF" />
+					</tr>
+					<tr>
 						<td>term</td>
 						<td>description</td>
 						<td>comment</td>
+						<td>inspiration</td>
 						<td>type</td>
 						<td>publisher</td>
 						<td>year</td>
 					</tr>
+Perren -  - 
+PF - Pathfinder&copy; RPG - 2009 - unoffical successor to 3.5
 					<tr>
 						<td>PolyHedron</td>
 						<td>RPGA publication</td>
@@ -590,10 +635,32 @@
 						<td>term</td>
 						<td>description</td>
 						<td>comment</td>
+						<td>inspiration</td>
 						<td>type</td>
 						<td>publisher</td>
 						<td>year</td>
 					</tr>
+					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>inspiration</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
+					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>inspiration</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
+RAI - Rules As Intended
+RAF - Rules As Fun
+RAW - Rules As Written
 					<tr>
 						<td>RPGA</td>
 						<td>Role Playing Game Association</td>
@@ -607,83 +674,141 @@
 						<td>term</td>
 						<td>description</td>
 						<td>comment</td>
+						<td>inspiration</td>
 						<td>type</td>
 						<td>publisher</td>
 						<td>year</td>
 					</tr>
 					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>inspiration</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
+					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>inspiration</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
+Rvn. - Ravnica&copy;
+Rvl. - Ravenloft&copy;
+SoB - Siege of Bodenberg
+					<tr>
 						<td>Std.</td>
 						<td>Game with standard rules</td>
 						<td>Official sourcebooks</td>
-						<td />
+						<td style="background-color:#DFDFDF" />
 						<td>TRPG</td>
 						<td>WotC/AL</td>
-						<td />
-					</tr>
-				</table>
-				<p></p>
-			</terms>
-		<mainpart>
-		<appendix header="Mary, Gary &amp; Lucy" pagination=roman firstpage=1 >
-			<Litterature footer="Litterature" recto=true>
-				<table style="width:100%">
-					<tr>
-						<th>Author</th>
-						<th>Title</th>
-						<th>Publisher</th>
+						<td style="background-color:#DFDFDF" />
 					</tr>
 					<tr>
-						<td>Jill</td>
-						<td>Smith</td>
-						<td>50</td>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>inspiration</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
 					</tr>
 					<tr>
-						<td>Eve</td>
-						<td>Jackson</td>
-						<td>94</td>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>inspiration</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
 					</tr>
-				</table>
-			</preface>
-		</appendix>
-	</body>
-</html>
-
-Myst. - Mystara - 
-OD&amp;D - Original D&amp;D - TRPG created by Gygax og Arneson
-OGL - Open Gaming License (RPG-Team 2016a) - limited license
-OO - One-of adventure - storyline intended for one gamesession
-Perren - Jeff Perren - creator of new rules for SoB &amp; co-creator of CM &amp; CR
-PF - Pathfinder&copy; RPG - 2009 - unoffical successor to 3.5
-RAI - Rules As Intended
-RAF - Rules As Fun
-RAW - Rules As Written
-Rvn. - Ravnica&copy;
-Rvl. - Ravenloft&copy;
-SoB - 
-Std. - Game with standard rules-  official sourcebooks from WotC &amp; AL
+					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>inspiration</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
 Strategos - Strategos: The American Game of War - created by C. A. L. Totten - Wargame - Wargame - 1880
 SRD - System Reference Document for D&amp;D 3e, 4e &amp; 5e - current version is SRD5
 SB - Siege of Bodenburg - wargame invented by 
+					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>inspiration</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
+					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>inspiration</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
+					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>inspiration</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
 TSR - Tactical Studies Rules&copy; - publishing company founded by Gary Gygax and Don Kaye
 Wargame - strategic simulation game - invented as different prussian/austrian <i>krigsspiele</i> - Chess - game genre - J.C.L. Hellwig (1743-1831)/J.G.J. Venturini (1772-1802)/J.F. Opiz (1741-1812)/G.H.R.J. von Reisswitch (1794–1827)
 WotC - Wizards of the Coast&copy; LLC
-
-Sourcebooks
-Also used in litterature references
-
-• AI - Acquisitions Incorporated - campaign setting  (RPG-Team 2019a)
+				</table>
+				<p></p>
+				<footer>Terms</footer>
+			</section>
+			<section name="sourcebooks">
+				<h2>Sourcebooks</h2>
+				<p>-used in litterature references</p>
+				<p />
+				<table style="width:100%">
+					<tr>
+						<th>Term</th>
+						<th>Description</th>
+						<th>Comment</th>
+						<th>Inspiration</th>
+						<th>Type</th>
+						<th>Publisher</th>
+						<th>Year</th>
+					</tr>
+					<tr>
+						<td>term</td>
+						<td>description</td>
+						<td>comment</td>
+						<td>inspiration</td>
+						<td>type</td>
+						<td>publisher</td>
+						<td>year</td>
+					</tr>
+• AI - Acquisitions Incorporated - campaign setting (RPG-Team 2019a)
 BoxSS - D&amp;D Starter Set - boxed set (RPG-Team 2014d)
 BoxEK - D&amp;D Essentials Kit - boxed set (RPG-Team 2019c)
 BR - Basic 5e rules (RPG-Team 2018a)
 DMBR - Dungeon Master&apos;s Basic Rules Version (RPG-Team 2015a)
 DMG - Dungeon Master&apos;s Guide - rulebook (RPG-Team 2014a)
 EEPC - Elemental Evil. Player&apos;s Companion - rulebook (RPG-Team 2015a)
-EGtW - Explorer&apos;s Guide to Wildemount - campaign setting  (RPG-Team 2020a)
-ERLW - Eberron: Rising from the Last War - campaign setting  (RPG-Team 2019b)
+EGtW - Explorer&apos;s Guide to Wildemount - campaign setting (RPG-Team 2020a)
+ERLW - Eberron: Rising from the Last War - campaign setting (RPG-Team 2019b)
 GGtR - Guildmasters&apos; Guide to Ravnica - campaign setting (RPG-Team 2018b)
-IDRF - Icewind Dale: Rime of the Frostmaiden - campaign setting  (RPG-Team 2020b)
+IDRF - Icewind Dale: Rime of the Frostmaiden - campaign setting (RPG-Team 2020b)
 MM - Monster Manual - rulebook (RPG-Team 2014b)
-MOOT - Mythic Odysseys of Theros - campaign setting  (RPG-Team 2020c)
+MOOT - Mythic Odysseys of Theros - campaign setting (RPG-Team 2020c)
 MToF - rulebook (RPG-Team 2018c)
 PBR - Player&apos;s Basic Rules - rulebook (RPG-Team 2015b)
 PHB - Player&apos;s Handbook - rulebook (RPG-Team 2014c)
@@ -696,36 +821,188 @@ VRGR - rulebook (RPG-Team 2021)
 WGTE - campaign setting (RPG-Team 2018d)
 XGtE - rulebook (RPG-Team 2017b)
 
-
-Perspectives on RAW/RAI/RAF:
-D&amp;D 5e: Official Sourcebooks &amp; Errata => Sage Advice => Jimmy Crawford => Mike Mearls => DM
+				</table>
+				<footer>Sourcebooks</footer>
+			</section>
+			<section name="perspectives">
+				<h2>Perspectives on RAW/RAI/RAF</h2>
+				<p>D&amp;D 5e: Official Sourcebooks &amp; Errata => Sage Advice => Jimmy Crawford => Mike Mearls => DM
 Reality: DM => Official Sourcebooks &amp; Errata => Sage Advice => Jimmy Crawford => Mike Mearls
 Many players prefer RAF - they are intended as guide lines - strict RAW/RAI risk becoming generic and mechanic, while the game is intended to be a fun experience.
-
-Litterature
-Lewis, C.S. (1950). The Lion, the Witch and the Wardrobe. London: Geoffrey Bles.
-RPG-Team, Wiz. (2014a). Dungeon Master&apos;s Guide . Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2014b). Monster Manual. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2014c). Player&apos;s Handbook. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2014d). D&amp;D Starter Set. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2015a). Dungeon Master&apos;s Basic Rules V. 0.5. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2015a). Elemental Evil. Player&apos;s Companion. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2015b). Player&apos;s Basic Rules V. 0.3. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2015b). Sword Coast Adventurer&apos;s Guide. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2016a). Standard Rules Document V. 5.1. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2016b). Volo&apos;s Guide to Monsters. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2017a). The Tortle Package. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2017b). Xanathar&apos;s Guide to Everything. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2018a). D&amp;D Basic Rules. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2018b). Guildmasters&apos; Guide to Ravnica. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2018c). Mordenkainen&apos;s Tomb of Foes. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2018d). Wayfinder&apos;s Guide to Eberron. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2019a). Acquisitions Incorporated. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2019b). Eberron: Rising from the Last War. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2019c). D&amp;D Essentials Kit. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2019d). Mordenkainen&apos;s Fiendish Folio, Volume 1: Monsters Malevolent and Benign. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2020a). Explorer&apos;s Guide to Wildemount. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2020b). Icewind Dale: Rime of the Frostmaiden. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2020c). Mythic Odysseys of Theros. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2020d). Tasha&apos;s Cauldron of Everything. Renton, WA: Wizards of the Coast.
-RPG-Team, Wiz. (2021). Vav Richten&apos;s Guide to Ravenloft. Renton, WA: Wizards of the Coast.
+			</section>
+			<footer>Main Part</footer>
+		</main>
+		<main name=appendix" pagination=roman firstpage=1 >
+			<header>Mary, Gary &amp; Lucy</header>
+			<section name="litterature" class="recto">
+				<h2>Litterature</h2>
+				<table style="width:100%">
+					<tr>
+						<th>Author</th>
+						<th>Title</th>
+						<th>Magazine</th>
+						<th>Publisher</th>
+					</tr>
+					<tr>
+						<td>Lewis, C.S. (1950)</td>
+						<td>The Lion, the Witch and the Wardrobe</td>
+						<td style="background-color:#DFDFDF" />
+						<td>London: Geoffrey Bles</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2014a)</td>
+						<td>Dungeon Master&apos;s Guide</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2014b)</td>
+						<td>Monster Manual</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2014c)</td>
+						<td>Player&apos;s Handbook</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2014d)</td>
+						<td>D&amp;D Starter Set</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2015a)</td>
+						<td>Dungeon Master&apos;s Basic Rules V0.5</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2015b)</td>
+						<td>Elemental Evil - Player&apos;s Companion</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2015c)</td>
+						<td>Player&apos;s Basic Rules V0.3</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2015d)</td>
+						<td>Sword Coast Adventurer&apos;s Guide</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2016a)</td>
+						<td>Standard Rules Document V5.1</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2016b)</td>
+						<td>Volo&apos;s Guide to Monsters</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2017a)</td>
+						<td>The Tortle Package</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (201b)</td>
+						<td>Xanathar&apos;s Guide to Everything</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2018a)</td>
+						<td>D&amp;D Basic Rules</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2018b)</td>
+						<td>Guildmasters&apos; Guide to Ravnica</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2018c)</td>
+						<td>Mordenkainen&apos;s Tomb of Foes</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2018d)</td>
+						<td>Wayfinder&apos;s Guide to Eberron</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2019a)</td>
+						<td>Acquisitions Incorporated</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2019b)</td>
+						<td>Eberron: Rising from the Last War</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2019c)</td>
+						<td>D&amp;D Essentials Kit</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2019d)</td>
+						<td>Mordenkainen&apos;s Fiendish Folio, Volume 1: Monsters Malevolent and Benign</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2020a)</td>
+						<td>Explorer&apos;s Guide to Wildemount</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2020b)</td>
+						<td>Icewind Dale: Rime of the Frostmaiden</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2020c)</td>
+						<td>Mythic Odysseys of Theros</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2020d)</td>
+						<td>Tasha&apos;s Cauldron of Everything</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+					<tr>
+						<td>RPG-Team, Wiz. (2021)</td>
+						<td>Van Richten&apos;s Guide to Ravenloft</td>
+						<td style="background-color:#DFDFDF" />
+						<td>Renton, WA: Wizards of the Coast</td>
+					</tr>
+				</table>
+				<footer>Litterature</footer>
+			</section>
+			<footer>Appendix</footer>
+		</main>
+	</body>
+</html>
